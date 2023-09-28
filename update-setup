@@ -12,7 +12,7 @@ CSU="[\e[1;34mSUCCESS\e[0m]"
 read -rep $'[\e[1;33mACTION\e[0m] - Are you using [b]ash or [z]sh? ' CONTINST
     if [[ $CONTINST == "B" || $CONTINST == "b" ]]; then
 	mkdir config &>> /dev/null
-	cat ../.bashrc >> $HOME/.bashrc
+	cat /rc/.bashrc >> $HOME/.bashrc
 	chmod +x update
 	cd $HOME
 	
@@ -26,7 +26,7 @@ read -rep $'[\e[1;33mACTION\e[0m] - Are you using [b]ash or [z]sh? ' CONTINST
 else
 
   mkdir config &>> /dev/null
-  cat ../.bashrc >> $HOME/.zshrc
+  cat rc/.bashrc >> $HOME/.zshrc
   chmod +x update
   cd $HOME
 
