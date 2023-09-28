@@ -1,4 +1,4 @@
-> :warning: DISCLAIMER: THIS ONLY WORKS IF YOU HAVE `yay` INSTALLED.
+> :warning: DISCLAIMER: THIS ONLY WORKS IF YOU HAVE `yay` and `pacman` INSTALLED.
 
 # auto-update
 This is a program that automatically updates packages and your system upon terminal loading.
